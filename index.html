@@ -4,70 +4,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>risma sitompul</title>
     <style>
-        section{
+        .profile {
             display: flex;
-            margin: 50px;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgb(190, 190, 219);
+            padding: 20px;
         }
-
-        #profile {
-          margin-right: 20px;
-        }
-
+       
         .profile-photo {
-        width: 150px;
-        height: 150px;
-        overflow: hidden;
-        border-radius: 50%;
+            padding-top: 50px;
+            padding-right: 20px;
         }
 
-        .profile-photo img {
-        width: 100%;
-        height: auto;
+        .profile-photo img{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+          
+        }
+
+        .profile-name {
+            color: #0d7291;
+        }
+
+        .profile-info {
+            padding: 10px;
+        }
+
+        th {
+            text-align: left;
+            padding: 8px;
         }
 
     </style>
 </head>
 <body>
-
- 
-
-    <section>
-        <div id="profile">
-            <div class="profile-photo">
-                <img src="Foto-profil.jpg" alt="foto profil">
-            </div>
-            
+    <div class="profile">
+        <div class="profile-photo">
+            <img src="Foto-Profil.jpg" alt="Foto Profile">
         </div>
 
-        <div id="detail">
+
+        <div class="profile-info">
             <table>
                 <tr>
-                    <td colspan="2"><b><h1>Risma Wati Sitompul</b><h1></b></td>
+                    <th colspan="2" class="profile-name"><h1>Risma Wati Sitompul</h1></th>
                     <!-- <td></td> -->
                 </tr>
                 <tr>
-                    <td><b>Jenis Kelamin </b></td>
-                    <td>: Perempuan</td>
+                    <th>Gender</th>
+                    <td>: Female</td>
                 </tr>
                 <tr>
-                    <td><b>Alamat</b></td>
+                    <th>Address</th>
                     <td>: Padang, Sumatera Barat</td>
                 </tr>
                 <tr>
-                    <td><b>Tanggal Lahir </b></td>
+                    <th>Date of Birth</th>
                     <td>: 01 Maret 2001</td>
                 </tr>
                 <tr>
-                    <td><b>Pekerjaan </b></td>
+                    <th>Occupation</th>
                     <td>: Fresh Graduate</td>
                 </tr>
                 <tr>
-                    <td><b>Hobby </b></td>
-                    <td>: Bulu Tangkis</td>
+                    <th>Hobby</th>
+                    <td>: Badminton</td>
                 </tr>
             </table>
         </div>
-    </section>
+    </div>
+ 
+
+   
    
 </body>
 </html>

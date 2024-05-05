@@ -1,208 +1,642 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>Risma Wati Sitompul </title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="asset/css/styleVALUEJS.css">
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Risma Wati Sitompul | Portofolio</title>
+
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
     </head>
-      <!-- 1Untuk mengisi perubahan pada form, maka akan bisa diterapkan pada form. 
-           Mengubah Button Contact menjadi Button Edit
-           hal 1 : memberikan identitas pada setiap Komponen pada script HTML Kita
-           jadi setiap komponen kita berikan nama/id supaya lebih mudah untuk mengubah nanti. 
-       -->
-    <body>
-        <nav>
-            <div class="menu-mobile">
-                 <!-- 2tambahkan -->
-                <a href="#" onclick="showMenu()">menu</a>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+
+                <a class="navbar-brand" href="#page-top"><h4 >Risma Sitompul</h4></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Experience</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#skill">Skill</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#interest">Interest</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#award">Award</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+
+                    </ul>
+                </div>
             </div>
-            <ul id="menu">
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">PRODUCT</a></li>
-                <li><a href="#">GALLERY</a></li>
-                <li><a href="#">BLOG</a></li>
-                <li><a href="#">INVENTORY</a></li>
-            </ul>
         </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+                <div class="masthead-subheading">Hi! <span>I'm Risma Wati Sitompul</span></div>
+                <div class="masthead-heading text-uppercase">Welcome !</div>
+                <a class="btn btn-primary btn-xl text-uppercase" href="#about">About Me</a>
+            </div>
+        </header>
 
-        <section id="box-profile">
-            <div class="img-profile">
-                <img src="asset/image/Foto-Profil.jpg" alt="Foto Profile" class="photo">
+        <section class="page-section" id="about">
+            <div class="container">
+                
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <img class="mx-auto img-thumbnail" src="assets/img/about/foto-profile.png" alt="..." />
+        
+                    </div>
+                    <div class="col-md-8">
+                        <h2 class=" text-uppercase">Risma Wati Sitompul</h2>
+                        <h3 class="section-subheading text-muted">- Fresh Graduate -</h3>
+                        <p class="text-dark">Seorang lulusan Sistem Informasi dengan IPK 3,71, memiliki minat yang tinggi dalam belajar dan 
+                             keterampilan yang solid dalam menghadapi tantangan teknologi saat ini. Kemampuan adaptasi yang cepat dan kemudahan berintegrasi membuat saya siap menghadapi dinamika industri yang terus berkembang dan memungkinkan saya berkolaborasi secara efektif dalam tim dan berinteraksi secara profesional. Kreativitas tinggi muncul dalam pendekatan inovatif terhadap masalah dan solusi yang dihadapi. Saya sedang mencari kesempatan untuk menyumbangkan
+                             pengetahuan dan keterampilan saya dalam lingkungan yang dinamis di mana saya dapat terus tumbuh dan memberikan kontribusi positif.</p>
+                        <p class="text-info fw-semibold">Let's Connect !</p>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/Risma Sitompul" aria-label="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/rismasitompull_" aria-label="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/rismawatisitompul" aria-label="LinkedIn" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    
                 </div>
             </div>
-            <div class="description">
-                <!-- 2Pada bagian Nama tambahkan atribut ID. penting mudah diingat dan dipahami!! 
-                kemudian pada roles kasih nama prole, lalu 
-                pada button contact ubah nama menjadi EDIT lalu value pada ahref tambahkan inputform, 
-                save - debug 
-                pada saat klik edit akan mengarah ke form input.
+        </section>
+<!-- Tambah diatas ini - Untuk Lets Connect  linkedin dsb-->
 
-                next
 
-                kita kasih atribut onclick=editForm pada button edit 
 
-                -->
-                <h1 id="pName">Risma Wati Sitompul</h1>
-                <p id="pRole">Fresh Graduate</p>
-                <a href="#input-form" class="button bg-blue" onclick="editForm()">Edit</a>
-                <a href="#" class="button border-green">Resume</a>
-            </div>
-            <!-- 3Pada komponent class information tambahkan juga 
-                 A. id="pAvailable" pada text-gray
-                 B. id="pAvailable" pada text-gray
-                 C. id="pAvailable" pada text-gray
-                 D. id="pAvailable" pada text-gray
-
-                 Pada section Inputform kita tambahka juga masing2 input id 
-                 A. input id=inpname
-                 A. input id=inprole
-                 A. input id=inpavailability
-                 A. input id=inpage
-                 A. input id=inplocation
-                 A. input id=inpyears
-                 A. input id=inpemail
-
-                 pada tombol submit tambahkan onclik dengan function simpanform
-
-                 save.
-
-                -->
-            <div class="information">
-                <div class="data">
-                    <p class="field">Availability</p>
-                    <p id="pAvailable" class="text-gray">: Full Time</p>
+        <!-- Portfolio Grid-->
+        <section class="page-section bg-light" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Experience</h2>
+                    <h3 class="section-subheading text-muted">Every experience is a potential for growth and transformation. - Tony Robbins</h3>
                 </div>
-                <div class="data">
-                    <p class="field">Usia</p>
-                    <p id="pAge" class="text-gray">: 23</p>
-                </div>
-                <div class="data">
-                    <p class="field">Lokasi</p>
-                    <p id="pLocation" class="text-gray">: Padang</p>
-                </div>
-                <div class="data">
-                    <p class="field">Pengalaman</p>
-                    <p id="pExperience" class="text-gray">: 1</p>
-                </div>
-                <div class="data">
-                    <p class="field">Email</p>
-                    <p id="pEmail" class="text-gray"> : rismawati.sitompul01@gmail.com</p>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 1-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Magang</div>
+                                <div class="portfolio-caption-subheading text-muted">Web Developer</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 2-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/soon.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Upcoming Project</div>
+                                <div class="portfolio-caption-subheading text-muted">Upcoming Project</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 3-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/soon.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Upcoming Project</div>
+                                <div class="portfolio-caption-subheading text-muted">Upcoming Project</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <!-- Portfolio item 4-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/soon.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Upcoming Project</div>
+                                <div class="portfolio-caption-subheading text-muted">Upcoming Project</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                        <!-- Portfolio item 5-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/soon.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Upcoming Project</div>
+                                <div class="portfolio-caption-subheading text-muted">Upcoming Project</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <!-- Portfolio item 6-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/soon.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Upcoming Project</div>
+                                <div class="portfolio-caption-subheading text-muted">Upcoming Project</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section id="input-form">
-            <form method="#" action="#">
-                <div class="form">
-                    <label>Nama</label>
-                    <input id="inpName" type="text" name="nama" placeholder="masukkan nama anda">
-                </div>   
-                <div class="form">
-                    <label>Role</label>
-                    <input id="inpRole" type="text" name="role">
-                </div>  
-                <div class="form">
-                    <label>Availability</label>
-                    <input id="inpAvailability" type="text" name="Availability">
-                </div>  
-                <div class="form">
-                    <label>Usia</label>
-                    <input id="inpUsia" type="number" name="usia">
-                </div>  
-                <div class="form">
-                    <label>Lokasi</label>
-                    <input id="inpLokasi" type="text" name="lokasi">
-                </div>  
-                <div class="form">
-                    <label>Years Experience</label>
-                    <input id="inpYears" type="number" name="experience">
-                </div>  
-                <div class="form">
-                    <label>Email</label>
-                    <input id="inpEmail" type="email" name="email">
-                </div>            
-                <div class="form">
-                    <input onclick="simpanForm()" type="submit" name="submit" value="SUBMIT" class="bg-green">
+        <!-- Education -->
+        <section class="page-section" id="education">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Education</h2>
+                    <h3 class="section-subheading text-muted">Ini adalah perjalanan pendidikan saya sampai sekarang dan akan di upgrade segera :'</h3>
                 </div>
-            </form>            
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>2019 - 2023</h4>
+                                <h4 class="subheading">Universitas Putra Indonesia YPTK Padang</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Sistem Informasi [ IPK : 3.71 / 4.00  ] <br>
+                                - Praktek kerja lapangan, membuat sistem informasi peramalan persediaan pada toko kayu menggunakan bahasa pemrograman PHP dengan database MySQL <br>
+                                - Skripsi, membuat sistem informasi pembelian, penjualan, dan persediaan stok,  menggunakan bahasa pemrograman PHP dengan database MySQL
+                                </p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>2016 - 2019</h4>
+                                <h4 class="subheading">SMA N 3 Kota Solok</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Jurusan Ilmu Pengetahuan Alam (IPA)
+                                <br> - Mengikuti beberapa perlombaan mata pelajaran
+
+                            </p></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>2013 2016</h4>
+                                <h4 class="subheading">SMP N 4 Gunung Talang</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted"> Selain belajar, aktif di organisasi OSIS, mengikuti kegiatan ekstrakulikuler diantaranya 
+                                ekstrakulikuler komputer, olahraga voly, dan mengikuti lomba OSN Catur tingkat kabupaten/Kota </p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>2007 - 2013</h4>
+                                <h4 class="subheading">SD N 32 Air Batumbuk</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Mendapatkan beberapa kali peringkat juara kelas</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <h4>
+                                My
+                                <br />
+                                Education !
+                            </h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </section>
 
-         <!-- 4Pertama kita buat sebuah variabel formenu mengarah ke id inputform.
-            kemudian formenu kita panggil , kita ubah dan style dan display menjadi none.
-            lalu save - debug
-            "Halaman Form Hilang" 138-139
 
-            5Fungsiberikutnya seperti editform line144-157 dan simpanform line148-150
-            EditForm
-            buat logika pada code menggunakan if dg kondisi awal
-            formMenu style displaynya none maka akan diubah jadi block, selain itu pada else
-            maka tampilannya tetap none.
-            simpan - debug
+        <!-- Skill -->
+        <section class="page-section" id="skill">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">SKILL</h2>
+                <h3 class="section-subheading text-muted">Terus meningkatkan skill agar jadi pro dan bisa jadi berkat buat banyak orang:'</h3>
+            </div>
 
-            6Selanjutnya pada line 164 - 172menampilkan nama masuk dalam form nama dsterusnya. 
-            caranya buat sebuah variable name kita ambil value dengan id yang sudah didefinisikan tadi cth pName, kemudian ambil innerhtml nya lalu
-            pada bagian input nama pada form dg nama id InpName. document.getelementby id
-            lalu ubah value menjadi name yang berasal dari variable yang sudah dibuat diatas. 
-            save - debug
-
-            QUIZ = lakukan untuk file selanjutnya. 
-            save-debug.
-        -->
-
-
-        <script>
-            var formMenu = document.getElementById("input-form");
-            formMenu.style.display="none";
-            
-            function editForm(){
-                if(formMenu.style.display === "none"){
-                    formMenu.style.display = "block";
-                }else{
-                    formMenu.style.display = "none";
-                }
-
-                var name = document.getElementById("pName").innerHTML;
-                var role = document.getElementById("pRole").innerHTML;
-                var available = document.getElementById("pAvailable").innerHTML;
-                var usia = document.getElementById("pAge").innerHTML;
-                var lokasi = document.getElementById("pLocation").innerHTML;
-                var experience= document.getElementById("pExperience").innerHTML;
-                var email = document.getElementById("pEmail").innerHTML;
-
-                document.getElementById("inpName").value=name;
-                document.getElementById("inpRole").value=role;
-                document.getElementById("inpAvailability").value=available;
-                document.getElementById("inpUsia").value=usia;
-                document.getElementById("inpLokasi").value=lokasi;
-                document.getElementById("inpYears").value=experience;
-                document.getElementById("inpEmail").value=email;
-
-            }
-            
-            function simpanForm(){
-
-            }
-
-            function showMenu()
-            {
-                var menu = document.getElementById("menu");
-                var box = document.getElementById("box-profile");
-
-                if(menu.style.display === "block"){
-                    menu.style.display = "none";
-                    box.style.paddingTop = "0px";
-                }else{
-                    menu.style.display = "block";
-                    box.style.paddingTop = "125px";
-                }
-            }
-        </script>
+        <div class="py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/skill/html.jpg" alt="..." aria-label="Microsoft Logo" /></a>
+                        <p class="text-dark text-center">HTML</p>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/skill/css.png" alt="..." aria-label="Microsoft Logo" /></a>
+                        <p class="text-dark text-center">CSS</p>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/skill/js.png" alt="..." aria-label="Microsoft Logo" /></a>
+                        <p class="text-dark text-center">JavaScript</p>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/skill/waktu.png" alt="..." aria-label="Google Logo" /></a>
+                        <p class="text-dark text-center">Time Management</p>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/skill/design.png" alt="..." aria-label="Facebook Logo" /></a>
+                        <p class="text-dark text-center">Design</p>
+                    </div>
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/skill/editVideo.png" alt="..." aria-label="IBM Logo" /></a>
+                        <p class="text-dark text-center">Simple Video Editing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
 
 
 
+        <!-- interest-->
+        <section class="page-section bg-light" id="interest">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Interest</h2>
+                    <h3 class="section-subheading text-muted">------------------------------------</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/skill/programer.png" alt="..." />
+                            <h4>Pemrograman</h4>
+                            <p class="text-muted">HTML | CSS | JavaScript</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/skill/design.png" alt="..." />
+                            <h4>Design</h4>
+                            <p class="text-muted">Canva | Picsart</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/skill/exsercise.png" alt="..." />
+                            <h4>Excercise</h4>
+                            <p class="text-muted">Yoga | Badminton | Running</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/skill/waktu.png" alt="..." />
+                            <h4>Manage my time</h4>
+                            <p class="text-muted">Notion | Google Calendar </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/skill/podcast.png" alt="..." />
+                            <h4>Musik & Podcast</h4>
+                            <p class="text-muted">Spotify | YouTube</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/skill/youtube.png" alt="..." />
+                            <h4>watching videos</h4>
+                            <p class="text-muted">YouTube</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/skill/konten.jpg" alt="..." />
+                            <h4>Konten</h4>
+                            <p class="text-muted">Lemon8</p>
+                        </div>
+                    </div>
+                    
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Interest pada satu bidang memang bagus, namun tidak salah jika mencoba semuanya agar ketika dihadapkan dengan satu hal atau pekerjaan yang memerlukan skill a, b, z kita siap!!  <span class="fst-italic text-info">~rismasitompul</span></p></div>
+                </div>
+            </div>
+        </section>
 
+        <section class="page-section" id="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Contact Me</h2>
+                    <h3 class="section-subheading text-muted">------------------------------------</h3>
+                </div>
 
-
-
+                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                    <div class="row align-items-stretch mb-5">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <!-- Name input-->
+                                <input class="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" />
+                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                            </div>
+                            <div class="form-group">
+                                <!-- Email address input-->
+                                <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" />
+                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                            </div>
+                            <div class="form-group mb-md-0">
+                                <!-- Phone number input-->
+                                <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" data-sb-validations="required" />
+                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group form-group-textarea mb-md-0">
+                                <!-- Message input-->
+                                <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Submit success message-->
+                    <!---->
+                    <!-- This is what your users will see when the form-->
+                    <!-- has successfully submitted-->
+                    <div class="d-none" id="submitSuccessMessage">
+                        <div class="text-center text-white mb-3">
+                            <div class="fw-bolder">Sementara Waktu tidak bisa digunakan,silahkan hubungi melalui Media sosial yang ada di halaman about! Terimakasih</div>
+                            <br />
+                        </div>
+                    </div>
+                    <!-- Submit error message-->
+                    <!---->
+                    <!-- This is what your users will see when there is-->
+                    <!-- an error submitting the form-->
+                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                    <!-- Submit Button-->
+                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
+                </form>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-start">Copyright &copy; rismawatisitompul 2024</div>
+                    <div class="col-lg-8 text-lg-end">
+                        <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
+                        <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Portfolio Modals-->
+        <!-- Portfolio item 1 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Web Developer</h2>
+                                    <p class="item-intro text-muted">1 Mei 2023 - 1 Juni 2023</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." />
+                                    <p>Membuat website sederhana menggunakan bahasa pemrograman JavaScript, dibantu HTML dan CSS.
+                                    </p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Nama Perusahaan:</strong>
+                                            Luar Sekolah
+                                        </li>
+                                        <li>
+                                            <strong>Category:</strong>
+                                            Internship - Web Design
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 2 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Upcoming project</h2>
+                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/soon.png" alt="..." />
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Client:</strong>
+                                            Explore
+                                        </li>
+                                        <li>
+                                            <strong>Category:</strong>
+                                            Graphic Design
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 3 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Upcoming project</h2>
+                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/soon.png" alt="..." />
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Client:</strong>
+                                            Finish
+                                        </li>
+                                        <li>
+                                            <strong>Category:</strong>
+                                            Identity
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 4 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Upcoming project</h2>
+                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/soon.png" alt="..." />
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Client:</strong>
+                                            Lines
+                                        </li>
+                                        <li>
+                                            <strong>Category:</strong>
+                                            Branding
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 5 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Upcoming project</h2>
+                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/soon.png" alt="..." />
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Client:</strong>
+                                            Southwest
+                                        </li>
+                                        <li>
+                                            <strong>Category:</strong>
+                                            Website Design
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 6 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Upcoming project</h2>
+                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/soon.png" alt="..." />
+                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>Client:</strong>
+                                            Window
+                                        </li>
+                                        <li>
+                                            <strong>Category:</strong>
+                                            Photography
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
 </html>
